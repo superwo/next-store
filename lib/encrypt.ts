@@ -1,3 +1,5 @@
+import crypto from "crypto";
+
 const encoder = new TextEncoder();
 const key = new TextEncoder().encode(process.env.ENCRYPTION_KEY); // Retrieve key from env var
 
